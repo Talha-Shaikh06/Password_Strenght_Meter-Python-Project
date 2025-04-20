@@ -1,0 +1,35 @@
+Key Features:
+
+✅ Real-Time Strength Evaluation: Dynamically scores password strength based on a 5-point scale considering length, character variety (uppercase, lowercase, digits, special characters), and overall complexity.
+
+🌈 Visual Feedback: Displays a progress bar and color-coded strength labels ranging from Very Weak to Very Strong.
+
+💡 Actionable Suggestions: Offers tailored recommendations to help improve weak passwords.
+
+🔐 Secure Input: Passwords are hidden by default using secure input fields.
+
+Technical Stack:
+
+Frontend/UI: Streamlit
+
+Backend/Logic: Python with re (regex) for pattern matching
+
+Evaluation Criteria:
+
+Password length
+
+Use of uppercase and lowercase characters
+
+Inclusion of numeric digits
+
+Use of special characters (e.g., !@#$%)
+
+Bonus for longer passwords (>12 characters)
+
+Use Cases:
+
+Personal or enterprise-level tools for encouraging strong password creation.
+
+Educational demos on password security and basic web app development.
+
+Integration into authentication systems for on-the-fly strength checking.
